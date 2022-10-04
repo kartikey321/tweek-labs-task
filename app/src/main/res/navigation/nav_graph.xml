@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/leaderboardFragment">
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.tweeks_lab_task.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/myKitsFragment"
+        android:name="com.example.tweeks_lab_task.MyKitsFragment"
+        android:label="fragment_my_kits"
+        tools:layout="@layout/fragment_my_kits" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.tweeks_lab_task.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.tweeks_lab_task.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/leaderboardFragment"
+        android:name="com.example.tweeks_lab_task.LeaderboardFragment"
+        android:label="fragment_leaderboard"
+        tools:layout="@layout/fragment_leaderboard" />
+</navigation>

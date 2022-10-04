@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:id="@+id/layout1"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_cancel"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/dialog_bg"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort By"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:id="@+id/radioGroup"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:textSize="16dp"
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:buttonTint="@color/black"
+
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Score" />
+
+            <RadioButton
+                android:textSize="16dp"
+                android:id="@+id/runup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:text="Run-Up" />
+
+            <RadioButton
+                android:textSize="16dp"
+                android:id="@+id/jump"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:text="Jump" />
+
+            <RadioButton
+                android:textSize="16dp"
+                android:id="@+id/bfc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:text="Back-Foot Contact" />
+
+            <RadioButton
+                android:textSize="16dp"
+                android:id="@+id/ffc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:text="Front-Foot Contact" />
+
+            <RadioButton
+                android:textSize="16dp"
+                android:id="@+id/release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+
+                android:text="Release" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+</LinearLayout>

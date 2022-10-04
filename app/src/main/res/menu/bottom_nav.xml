@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="News" android:icon="@drawable/ic_news" android:id="@+id/newsFragment" />
+    <item android:title="My Kits" android:icon="@drawable/ic_kits" android:id="@+id/myKitsFragment"/>
+    <item android:title="Home" android:icon="@drawable/ic_home" android:id="@+id/homeFragment"/>
+    <item android:title="Leaderboard" android:icon="@drawable/ic_leaderboard" android:id="@+id/leaderboardFragment" />
+    <item android:title="Account" android:icon="@drawable/ic_account" android:id="@+id/accountFragment" />
+</menu>
